@@ -1,10 +1,12 @@
 .posts {
-  > a {
+  > button {
     color: var(--highlight);
     display: block;
     margin-top: 4.125rem;
     font-weight: 600;
     font-size: 1.125rem;
+    background: none;
+    border: none;
 
     transition: opacity 0.2s;
 
@@ -19,7 +21,7 @@
     opacity: 0.9;
   }
 
-  h1 {
+  strong {
     color: var(--heading);
     font-size: 1.75rem;
 
@@ -45,6 +47,11 @@
       display: flex;
       align-items: center;
       font-size: 0.875rem;
+
+      time {
+        display: flex;
+        align-items: center;
+      }
 
       & svg {
         font-size: 1.25rem;
