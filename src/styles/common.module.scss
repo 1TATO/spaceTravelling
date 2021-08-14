@@ -3,3 +3,24 @@
   margin: 0 auto 4rem;
   padding: 0 2rem;
 }
+
+.preview {
+  display: block;
+  max-width: 750px;
+  background: var(--heading);
+  height: 3.625rem;
+  border-radius: 0.25rem;
+  margin-top: 5.5rem;
+
+  color: var(--background);
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem;
+
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
